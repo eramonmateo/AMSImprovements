@@ -1,0 +1,190 @@
+.makerow-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 18px;
+}
+
+img.img1{
+  height: 150px;
+  width: 150px;
+  display: flex;
+  left: 17%;
+  position: relative;
+}
+
+.inout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.time-in-container {
+  display: flex;
+  padding: 100px;
+  margin-left: 100px;
+  align-items: flex-start;
+  padding: 20px;
+  width: 90%;
+  text-align: center;
+  align-items: center;
+}
+.time-out-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  width: 90%;
+  
+}
+
+.profile-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.hours-column {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.hours-item {
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.time-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.timeinbutton{
+  
+  width: 350px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  
+}
+
+.btn{
+  width: 200px;
+  height: 50px;
+}
+
+
+
+.time-logo {
+  margin-bottom: 10px;
+}
+
+.uil {
+  font-size: 80px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.uil:hover {
+  color: #0bcc14;
+  cursor: pointer;
+}
+
+.status-column {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.status-time {
+  text-align: center;
+}
+
+.input-field-text {
+  width: 250px;
+  height: 150px;
+  border: #000 solid 1px;
+ 
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+}
+
+.time-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.time-button i.uil {
+  font-size: 70px;
+  color: #000;
+}
+
+.time-button i.uil:hover {
+  color: #0bcc14;
+}
+
+.utility-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.row {
+  height: 89px;
+}
+
+#end_date,
+#start_date {
+  width: 200px;
+}
+
+.submit {
+  width: 200px;
+}
+
+/* START OF CURRENT TIME AND DATE */
+.date-time h1 {
+  font-weight: 1;
+  font-size: large;
+  position: relative;
+  left: 50px;
+}
+.date-time span {
+  font-weight: bold;
+  
+  font-size: 33px;
+  color: #0bcc14;
+}
+#taskstext {
+  background-color: white !important;
+}
+/* END OF CURRENT TIME AND DATE */
